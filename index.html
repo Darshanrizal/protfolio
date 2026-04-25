@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Darshan Rijal | Web Developer</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-50 text-gray-800 scroll-smooth">
+
+<!-- NAVBAR -->
+<nav class="fixed w-full bg-white shadow z-50">
+  <div class="max-w-6xl mx-auto flex justify-between items-center p-4">
+
+    <h1 class="text-xl font-bold text-blue-600">Darshan.dev</h1>
+
+    <div class="space-x-6 font-medium">
+      <a href="#home" class="hover:text-blue-600">Home</a>
+      <a href="#about" class="hover:text-blue-600">About</a>
+      <a href="#skills" class="hover:text-blue-600">Skills</a>
+      <a href="#projects" class="hover:text-blue-600">Projects</a>
+      <a href="#contact" class="hover:text-blue-600">Contact</a>
+    </div>
+
+  </div>
+</nav>
+
+<!-- HERO SECTION -->
+<section id="home" class="pt-28 h-screen flex items-center justify-center bg-gradient-to-r from-blue-50 to-purple-50">
+
+  <div class="text-center">
+    <h1 class="text-5xl font-bold">
+      Hi, I'm <span class="text-blue-600">Darshan Rijal</span>
+    </h1>
+
+    <p class="text-xl mt-4 text-gray-600">
+      Full Stack Web Developer (Student)
+    </p>
+
+    <button onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})"
+      class="mt-6 bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700">
+      Hire Me
+    </button>
+  </div>
+
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="py-20 bg-white">
+  <div class="max-w-4xl mx-auto text-center">
+
+    <h2 class="text-3xl font-bold text-green-600">About Me</h2>
+
+    <p class="mt-6 text-gray-600 leading-relaxed">
+      I am a junior frontend and backend webdeveloper.
+      I build modern, responsive and user-friendly websites using HTML, CSS, JavaScript,
+      and PHP.
+    </p>
+
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="py-20 bg-gray-50">
+
+  <div class="text-center">
+    <h2 class="text-3xl font-bold text-yellow-600">Skills</h2>
+    <p class="text-gray-600 mt-2">My technical abilities</p>
+  </div>
+
+  <div class="max-w-5xl mx-auto grid md:grid-cols-3 gap-6 mt-10">
+
+    <!-- Frontend -->
+    <div class="p-6 rounded-xl shadow text-center bg-gradient-to-br from-blue-100 to-blue-200 hover:scale-105 transition">
+      <h3 class="font-bold text-blue-700 text-xl mb-2">Frontend</h3>
+      <p class="text-gray-700">HTML, CSS, JavaScript</p>
+    </div>
+
+    <!-- Backend -->
+    <div class="p-6 rounded-xl shadow text-center bg-gradient-to-br from-green-100 to-green-200 hover:scale-105 transition">
+      <h3 class="font-bold text-green-700 text-xl mb-2">Backend</h3>
+      <p class="text-gray-700">PHP</p>
+    </div>
+
+    <!-- Database -->
+    <div class="p-6 rounded-xl shadow text-center bg-gradient-to-br from-purple-100 to-purple-200 hover:scale-105 transition">
+      <h3 class="font-bold text-purple-700 text-xl mb-2">Database</h3>
+      <p class="text-gray-700">MySQL</p>
+    </div>
+
+  </div>
+
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="py-20 bg-white">
+
+  <div class="text-center">
+    <h2 class="text-3xl font-bold text-purple-600">Projects</h2>
+    <p class="text-gray-600 mt-2">My main works</p>
+  </div>
+
+  <div class="max-w-4xl mx-auto grid md:grid-cols-2 gap-6 mt-10">
+
+    <!-- Project 1 -->
+    <div class="p-6 rounded-xl shadow bg-gradient-to-br from-blue-100 to-blue-200 hover:scale-105 transition">
+      <h3 class="font-bold text-blue-700 text-xl mb-2">Portfolio Website</h3>
+      <p class="text-gray-700">
+        A personal portfolio website built using HTML, CSS, and JavaScript to showcase my skills and work.
+      </p>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="p-6 rounded-xl shadow bg-gradient-to-br from-green-100 to-green-200 hover:scale-105 transition">
+      <h3 class="font-bold text-green-700 text-xl mb-2">Student Data Management System</h3>
+      <p class="text-gray-700">
+        A simple system to manage student records including adding, viewing, and organizing student data.
+      </p>
+    </div>
+
+  </div>
+
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="py-20 bg-gray-50">
+
+  <div class="text-center">
+    <h2 class="text-3xl font-bold text-red-600">Contact Me</h2>
+    <p class="text-gray-600 mt-2">Feel free to reach out</p>
+  </div>
+
+  <div class="max-w-md mx-auto mt-10 p-6 rounded-xl shadow-lg bg-gradient-to-br from-red-100 via-pink-100 to-purple-100">
+
+    <!-- Name -->
+    <div class="mb-4">
+      <label class="block text-left font-medium mb-1 text-red-700">Name</label>
+      <input type="text"
+        class="w-full p-2 border border-red-300 rounded focus:outline-none focus:ring-2 focus:ring-red-400"
+        placeholder="Your Name">
+    </div>
+
+    <!-- Email -->
+    <div class="mb-4">
+      <label class="block text-left font-medium mb-1 text-pink-700">Email</label>
+      <input type="email"
+        class="w-full p-2 border border-pink-300 rounded focus:outline-none focus:ring-2 focus:ring-pink-400"
+        placeholder="Your Email">
+    </div>
+
+    <!-- Message -->
+    <div class="mb-4">
+      <label class="block text-left font-medium mb-1 text-purple-700">Message</label>
+      <textarea rows="4"
+        class="w-full p-2 border border-purple-300 rounded focus:outline-none focus:ring-2 focus:ring-purple-400"
+        placeholder="Your Message"></textarea>
+    </div>
+
+    <!-- Button -->
+    <button class="bg-gradient-to-r from-red-500 to-purple-600 text-white w-full py-2 rounded hover:opacity-90 transition">
+      Send Message
+    </button>
+
+  </div>
+
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-black text-white text-center p-6 mt-10">
+  © 2026 Darshan Rijal | All Rights Reserved
+</footer>
+
+</body>
+</html>
