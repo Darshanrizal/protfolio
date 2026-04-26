@@ -6,13 +6,13 @@
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="bg-gray-50 text-gray-800 scroll-smooth">
+<body class="bg-purple-200 text-gray-800 scroll-smooth">
 
 <!-- NAVBAR -->
 <nav class="fixed w-full bg-white shadow z-50">
   <div class="max-w-6xl mx-auto flex justify-between items-center p-4">
 
-    <h1 class="text-xl font-bold text-blue-600">Darshan.dev</h1>
+    <h1 class="text-xl font-bold text-blue-600">drsn.dev</h1>
 
     <div class="space-x-6 font-medium">
       <a href="#home" class="hover:text-blue-600">Home</a>
@@ -26,21 +26,35 @@
 </nav>
 
 <!-- HERO SECTION -->
+ 
+<!-- HERO SECTION -->
+
 <section id="home" class="pt-28 h-screen flex items-center justify-center bg-gradient-to-r from-blue-50 to-purple-50">
 
   <div class="text-center">
+
+    <!-- PROFILE IMAGE -->
+    <div class="flex justify-center mb-6">
+      <img 
+        src="red.jpeg" 
+        alt="Darshan Rijal"
+        class="w-40 h-40 rounded-full object-cover border-4 border-white shadow-lg"
+      >
+    </div>
+
     <h1 class="text-5xl font-bold">
       Hi, I'm <span class="text-blue-600">Darshan Rijal</span>
     </h1>
 
     <p class="text-xl mt-4 text-gray-600">
-      Full Stack Web Developer (Student)
+      Junior full stack web developer (Student)
     </p>
 
     <button onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})"
       class="mt-6 bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700">
       Hire Me
     </button>
+
   </div>
 
 </section>
@@ -79,13 +93,13 @@
     <!-- Backend -->
     <div class="p-6 rounded-xl shadow text-center bg-gradient-to-br from-green-100 to-green-200 hover:scale-105 transition">
       <h3 class="font-bold text-green-700 text-xl mb-2">Backend</h3>
-      <p class="text-gray-700">PHP</p>
+      <p class="text-gray-700">Python</p>
     </div>
 
     <!-- Database -->
     <div class="p-6 rounded-xl shadow text-center bg-gradient-to-br from-purple-100 to-purple-200 hover:scale-105 transition">
       <h3 class="font-bold text-purple-700 text-xl mb-2">Database</h3>
-      <p class="text-gray-700">MySQL</p>
+      <p class="text-gray-700">MySQL and PHP</p>
     </div>
 
   </div>
@@ -164,11 +178,28 @@
   </div>
 
 </section>
+<br>
 
-<!-- FOOTER -->
 <footer class="bg-black text-white text-center p-6 mt-10">
   © 2026 Darshan Rijal | All Rights Reserved
-</footer>
 
+  <br>
+
+  <p class="mt-4 font-semibold">Get Connected With Me:</p>
+
+  <div class="mt-3 space-x-6">
+    <a href="https://linkedin.com/in/your-linkedin-username" 
+       target="_blank" 
+       class="text-blue-900 hover:text-blue-700 font-semibold">
+       LinkedIn
+    </a>
+
+    <a href="https://github.com/your-github-username" 
+       target="_blank" 
+       class="text-blue-900 hover:text-blue-700 font-semibold">
+       GitHub
+    </a>
+  </div>
+</footer>
 </body>
 </html>
